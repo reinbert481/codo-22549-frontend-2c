@@ -1,67 +1,53 @@
 <!-- con esto le digo al navegador que es un
-doc html version 5 -->
+doc html version 5-->
 <!DOCTYPE html>
-
-<!-- etiqueta -->
-
+<!-- etiqueta-->
 <html>
     <head>
-        <!-- lo ve el navegador pero no "dibuja algo en pantalla"-->
+        <!-- lo vel navegdor pero no "dibuja algo en pantalla" -->
         <title>Codo a Codo - Clase3</title>
         <!-- ctrl +s -->
+        <meta charset="utf-8">
     </head>
 
     <body>
-        <!-- lo ve y lo dibuja -->
-        <h1>Titulo Principal de la Pagina</h1>
+        <!-- lo ve y lo dibuja-->
+        <h1>Título Principal de la Página</h1>
 
-        <!-- etiquetas basicas -->
-        <h2>subtitulo 2do nivel</h2>
-        <h3>subtitulo 3er nivel</h3>
-        <h4>subtitulo 4to nivel</h4>
-        <h5>subtitulo 5to nivel</h5>
-        <h6>subtitulo 6to nivel</h6>
+        <header>
+            <ul>
+                <li>
+                    <a href="formulario.html">Formualrios</a>
+                </li>
+                <li>
+                    <a href="tablas.html">Tablas</a>
+                </li>
+            </ul>            
+        </header> 
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim commodi libero dolorem nesciunt, nisi cumque optio doloribus recusandae id inventore et sequi dignissimos omnis distinctio sunt asperiores assumenda debitis rerum.
-        </p>
+        <section>
+            <h2>Videos</h2>            
+            <iframe width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/-u62ttx-AJ4?controls=0"
+                title="YouTube video player" 
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+        </section>
 
-        <a href="http://www.google.com.ar">ir a google</a>
+        <section>   
+            <h2>Imágenes</h2>
+            <img src="https://imagenes.elpais.com/resizer/EL70gbJpew8S1LX26VnuikTEEL8=/1960x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/CKJODPGW4OA2KDYDF6SSLHZIJE.jpg"
+                width="auto"
+                height="150"
+            >
 
-        <a href="about.html">ir a about</a>
-
-        <!-- pasos para hacer una torta -->
-        <ol>
-            <li>Comprar huevos</li>
-            <li>Comprar leche</li>
-            <li>Comprar azucar</li>
-        </ol>
-
-        <!-- listas sin orden -->
-        <p>Lista de cosas que no me quiero olvidar</p>
-        <ul>
-            <li>html</li>
-            <li>css</li>
-            <li>js</li>
-        </ul>
-
-        <!-- un link dentro de un ul -->
-        <ul>
-            <li>
-                <a href="http://www.mercadolibre.com.ar">Mercado Libre</a>
-            </li>
-            <li>
-                <a href="http://www.google.com.ar">Google</a>
-            </li>
-        </ul>
-
-        <!-- BASICAS -->
-        <p>
-            <b>Lorem</b> <i>ipsum</i> <mark>dolor</mark> <ins>sit amet</ins>  consectetur adipisicing elit. Commodi veritatis maiores animi sit enim eveniet maxime magnam sequi sed molestiae sunt et consequatur facere hic, quae ullam cumque beatae provident?
-        </p>
-
-        <!-- formularios -->
-        <a href="formulario.html">Formulario</a>
+            <img 
+                src="https://fotografias.antena3.com/clipping/cmsimages01/2017/03/17/7EF92031-EE35-44F7-8DC2-D3EF8CE477E2/94.jpg?crop=1264,711,x0,y0&width=800&height=450&optimize=high&format=webply"
+                width="auto"
+                height="150"
+            >            
+        </section>
     </body>
-<!-- cierre de etiqueta -->
 </html>
